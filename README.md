@@ -1,11 +1,11 @@
-[![Build Status](https://travis-ci.org/cmsirbu/codelint.svg?branch=master)](https://travis-ci.org/cmsirbu/codelint)
-
 # Code Linting & Formatting Showcase
+
+The [![Build Status](https://travis-ci.org/cmsirbu/codelint.svg?branch=master)](https://travis-ci.org/cmsirbu/codelint) is intentional, see if you can find out why!
 
 Try linting `example.py` with `pylint`, `pylama` and reformat it with `black`.
 
 ```
-pip install pylint pylama black
+pip install -r requirements.txt
 pylint example.py
 pylama example.py
 black --check --diff example.py
